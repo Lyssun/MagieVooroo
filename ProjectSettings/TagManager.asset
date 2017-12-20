@@ -8,6 +8,7 @@ TagManager:
   - Target
   - Exit
   - Text
+  - Test
   layers:
   - Default
   - TransparentFX
