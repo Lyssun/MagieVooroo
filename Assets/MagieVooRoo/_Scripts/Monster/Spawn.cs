@@ -5,10 +5,10 @@ using UnityEngine.UI;
 public class Spawn : MonoBehaviour {
 
     [SerializeField]
-    GameObject player;
-    Text text;
-    int nb_target;
-    bool genFinished = false;
+    private GameObject player;
+    private Text text;
+    private int nb_target;
+    private bool genFinished = false;
 
     void Start () {
         text = GameObject.FindGameObjectWithTag("Text").GetComponent<Text>();
@@ -32,5 +32,15 @@ public class Spawn : MonoBehaviour {
 
         GameObject.FindGameObjectWithTag("Exit").GetComponent<Portal>().AddNbTarget(nb_target);
 
+    }
+
+    public bool GetGenFinished()
+    {
+        return genFinished;
+    }
+
+    public bool SetGenFinished()
+    {
+        return genFinished;
     }
 }

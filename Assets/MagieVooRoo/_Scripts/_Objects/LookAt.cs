@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class LookAt : MonoBehaviour
 {
-    GameObject target;
+    private GameObject target;
     private Vector3 initialRotation;
 
     void Start()

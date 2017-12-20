@@ -5,9 +5,12 @@
  * Creer un objet quand la touche est pressee
  */ 
 public class Cannon : MonoBehaviour {
-    public GameObject obj;
-    public float force = 300f;
-    public string key = "Jump";
+    [SerializeField]
+    GameObject obj;
+    [SerializeField]
+    float force = 300f;
+    [SerializeField]
+    string key = "Jump";
     
 
 	// Update is called once per frame

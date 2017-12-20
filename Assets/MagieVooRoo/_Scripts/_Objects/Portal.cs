@@ -7,7 +7,9 @@ public class Portal : MonoBehaviour {
 
     [SerializeField]
     private List<GameObject> listParticle;
-    int nb_target = 0;
+    [SerializeField]
+    private int nb_target = 0;
+    [SerializeField]
     private Text text;
 
     private void Start()

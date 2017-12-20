@@ -8,9 +8,11 @@ using UnityEngine;
  */
 public class Spawner : MonoBehaviour {
     // l'objet qui va etre cree
-    public GameObject obj;
+    [SerializeField]
+    GameObject obj;
     // la touche utiliser pour faire apparaitre l'objet
-    public string key = "Jump";
+    [SerializeField]
+    string key = "Jump";
    
 	// Update is called once per frame
 	void Update () {

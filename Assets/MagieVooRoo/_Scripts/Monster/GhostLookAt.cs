@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class GhostLookAt : MonoBehaviour {
-    GameObject target;
+    private GameObject target;
     private Vector3 initialRotation;
 
     void Start()

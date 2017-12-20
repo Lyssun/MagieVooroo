@@ -421,7 +421,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2e18d70989d02241b942ae5ca48562b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 3
+  hp: 1
+  deathSpawn: {fileID: 1845784137473172, guid: 5861e3d2fe0fa1042ae55d63a47b4847, type: 2}
 --- !u!114 &114900467921747728
 MonoBehaviour:
   m_ObjectHideFlags: 1
